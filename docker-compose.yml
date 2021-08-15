@@ -6,3 +6,5 @@ services:
       context: "."
       args:
         PHP_VERSION: "8.0"
+    ports:
+      - "8000:8000"
